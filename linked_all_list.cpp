@@ -21,13 +21,9 @@ node *p,*start,*tmp,*i;
   	char ch='y';
   	while(ch=='y'){
         printf("what you  want do in this list \n ");
-                      printf("press 1:insert In beginning \t");
-                      printf("press 2:insert after a location \t");
-                      printf("press 3:insert before a location \t");
-                      printf("press 4: insert at the end\t");
-                      printf("press 5:delete a node from beginning \t");
-                      printf("press 6:delete a node from end \t");
-                      printf("press 7:delete a node at a location \n");
+		//thats my changes and my name is rohit kumar
+                      printf("press 1:insert In beginning \t\npress 2:insert after a location \t\npress 3:insert before a location \t\npress 4: insert at the end\t\npress 5:delete a node from beginning\t\npress 6:delete a node from end \t\npress 7:delete a node at a location \n");
+                  
         int a;
         scanf("%d",&a);
         switch(a){
